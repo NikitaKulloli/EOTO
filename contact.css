@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img{
+position: fixed;
+left: 0;
+z-index: -1;
+height:800px;
+width: 100%;
+ filter: brightness(70%);
+}
+body{
+    font-family: sans-serif;
+}
+
+form{
+    position: absolute;
+    
+    padding-top: 10px;
+    margin-top: 130px;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 50px;
+    
+    }
+form hr {
+    margin-left: 30px;
+    margin-right: 50px;
+}
+    form h2{
+        color: #ffff;
+        font-family: cursive;
+        font-size: 2rem;
+        font-weight: 100;
+        background-color:black;
+        border-radius:10px;
+        }
+
+        input{
+            width:70%;
+            padding:0.8rem;
+            border-radius:5px;
+            
+            border: 2px solid gray;
+            
+        }
+        button{
+            width: 50%;
+            padding:.6rem;
+            background-color: red;
+            border:none;
+            color:#ffff;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            height: 50px;
+            font-family:Comic Sans MS;
+            font-size:20px;
+
+        }
+        textarea{
+            
+            width:70%;
+            padding:0.8rem;
+            border-radius:5px;
+            border: 2px solid gray;
+            font-family: cursive;
+       
+        }
+      
+        .back{
+        float: right;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 20px;
+        background: transparent;
+        color: whitesmoke;
+        border:2px solid white;
+        border-radius: 8px;
+        width: 70px; 
+        cursor: pointer;
+        position: relative;
+            text-align: center;
+  }
+  span {
+        background: rgb(11, 199, 74);
+        height: 100%;
+        width: 0;
+        position: absolute;
+        border-radius: 8px;
+        left:0;
+        bottom:0;
+        z-index: -1;
+        transition: width 0.5s;
+    }
+     .back:hover span {
+        width: 100%;
+    }
+.contact {
+    position: absolute;
+    top: 140px;
+    right: 80px;
+    width: 450px;
+}
+h1 {
+    color:white;
+    text-align: center;
+    font-family: cursive;
+    background-color:black;
+    border-radius:10px;
+}
+i{
+    color:black;
+    margin: 30px;
+    font-size: 25px;
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.follow {
+     position: absolute;
+    bottom: 50px;
+    right: 80px;
+    width: 450px;
+}
+.followicon {
+    margin-left: 90px;
+}
+body{
+    background-color:black;
+}

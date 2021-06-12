@@ -1,0 +1,124 @@
+.container {
+    height: 100%;
+    width: 100%;
+}
+.img-div {
+    height: 500px;
+    width: 700px;
+    float: right;
+    position: absolute;
+    top: 140px;
+    right: 40px;
+}
+img {
+     height: 500px;
+    width: 700px;
+}
+input{
+    width: 46%;
+    padding: 12px 20px;
+     margin: 8px;
+    box-sizing: border-box;
+     border: none;
+     border-radius: 5px;
+     transition: 0.5s;
+     outline: none;
+     border: 1px solid black;
+     font-family:Comic Sans MS;
+    }
+select {
+    width: 96%;
+    padding: 12px 20px;
+     margin: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+     transition: 0.5s;
+    outline: none;
+    font-family:Comic Sans MS;    
+}
+
+form{
+width: 500px;
+padding: 20px;
+border-radius: 5px;
+background-color: #ccc;
+border: 3px solid #ccc;
+ padding: 20px;
+margin-left: 40px;
+margin-top:80px;
+} 
+
+button {
+    width: 30%;
+    background-color: darkviolet;
+    color: white;
+    height: 50px;
+    margin: 8px;
+    border: none;
+    font-size: 20px;
+    font-family: monospace;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family:Comic Sans MS;
+    margin-left: 80px;
+}
+
+h2 {   
+font-family: Lucida Calligraphy;
+margin-top: 50px;
+text-align:center;
+font-size :30.5px;
+color:rgb(163, 39, 163);
+animation: movedown 1s linear 1;
+visibility: hidden;
+animation-fill-mode: forwards;
+animation-delay: .3s;
+z-index: -1;
+
+}
+@keyframes movedown {
+0% {
+transform: translateY(100px);
+visibility: visible;
+}
+100% {
+transform: translateY(0);
+visibility: visible;
+}
+}
+
+p{
+font-family: Lucida Calligraphy;
+font-size: 16.5px;
+color:rgb(4, 4, 92) ;
+}
+.bspan {
+background: rgb(4, 217, 245);
+height: 100%;
+width: 0;
+position: absolute;
+border-radius: 8px;
+left:0;
+bottom:0;
+z-index: -1;
+transition: width 0.5s;
+}
+button:hover .bspan {
+width: 100%;
+}
+.nik{
+float: right;
+margin-left: 10px;
+height: 40px;
+border: none;
+background: transparent;
+color: black;
+border:2px solid black;
+border-radius: 8px;
+width: 70px; 
+margin:20px;
+cursor: pointer;
+position: relative;
+}
+

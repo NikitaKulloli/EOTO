@@ -1,0 +1,206 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css" />
+    <title>Homepage</title>
+</head>
+<body>
+
+    <header>
+        <h1>Eoto</h1>
+        <nav>
+            <a href="#"> <button class="dropbtn" style="font-family: Comic Sans MS;"><span></span>Home</button></a>
+            <a href="#about" style="transition: 0.5s;"> <button class="dropbtn" style="font-family: Comic Sans MS;"><span></span>About Us </button></a>
+            <a href="LogIn1.html"> <button class="dropbtn" style="font-family: Comic Sans MS;"> <span></span> Login </button></a>
+            <a href="contact.html"> <button class="dropbtn" style="font-family: Comic Sans MS;"> <span></span> Contact  </button></a>
+        </nav>
+    </header> 
+    <!-- learning -->
+    <div class="abc">
+        <div class="learn">
+        <h3>Willing to Learn</h3>
+         <ul>
+            <li>One to One Live Edurcators</li>
+            <li>Watch daily Live classes</li>
+            <li>Ask Any Doubts anytime </li>
+            <li>Mock test for better performance</li>
+        </ul>
+        <br><br>
+        <a href="Learn.html"> <button class="click" style="font-family: Comic Sans MS; "><span></span>Register Here</button></a>
+    </div>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="3.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="4.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="22.jpeg" style="width:100%">
+    </div>
+
+       <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="12.jpeg" style="width:100%">
+    </div>
+
+        <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="26.jpeg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div style="text-align: center; margin-top: 10px;">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+    </div>
+</div>
+
+</div>
+  
+   <!--teaching-->
+    
+<div class="bca">
+<div class="slideshow-container1">
+
+    <div class="mySlides1 fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="5.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides1 fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="15.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides1 fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="24.jpeg" style="width:100%">
+    </div>
+    
+       <div class="mySlides1 fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="33.jpeg" style="width:100%">
+    </div>
+    
+        <div class="mySlides1 fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="35.jpeg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+    <div style="text-align: center; margin-top:10px;">
+      <span class="dot1" onclick="currentSlide1(1)"></span> 
+      <span class="dot1" onclick="currentSlide1(2)"></span> 
+      <span class="dot1" onclick="currentSlide1(3)"></span> 
+      <span class="dot1" onclick="currentSlide1(4)"></span> 
+      <span class="dot1" onclick="currentSlide1(5)"></span> 
+    </div>
+</div>
+   <div class="teach">
+        <h3>Willing to Teach</h3>
+         <ul>
+            <li>One to One Live Interaction with Students</li>
+            <li>Teavh them on daily Live classes</li>
+            <li>Clear Doubts whenever the student ask </li>
+            <li> Counducting Mock test for better performance</li>
+            <li>Test results to be given imdiately after there performance</li>
+          
+            
+        </ul>
+        <br><br>
+        <a href="teach1.html"> <button class="click" style="font-family: Comic Sans MS; "><span></span>Register Here</button></a>
+        </div>
+
+</div>
+    
+    
+    <!-- about us -->
+    <div class="cda" id="about">
+        <h2>About us!</h2>
+        <p>Each One Teach One is a simple technique for imparting small pieces of understanding to a
+            group—one student at a time. Each student confronts new information, learns it, and then is
+            empowered to teach it to each other student. It allows the student to understand better and
+            provides the learner with rare one-on-one attention and lets students select
+            “lessons/Modules” appropriate to particular student learning styles, energy levels, and
+            personalities. As a teaching method, it can be used with almost any subject. This helps the
+            individual to enhance the understanding of self and the subject, as unofficially proven, it is alwaysthat best friend who becomes the best teacher by teaching topics in a way that one can remember
+            in the last minute, EOTO would be taking this concept much farther by building the system for it,
+            with a community that would work for the betterment of the concept and the idea, includes
+            analysis, maintenance, support, improvement, etc.</p>
+
+    </div>
+    <script>
+        var slideIndex = 1;
+        // slide learning
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+       
+        
+       // slide teaching
+        showSlides1(slideIndex);
+        
+        function currentSlide1(n) {
+          showSlides1(slideIndex = n);
+        }
+        function plusSlides1(n) {
+          showSlides1(slideIndex += n);
+        }
+        
+          function showSlides1(n) {
+          var i;
+          var slides1 = document.getElementsByClassName("mySlides1");
+          var dots1 = document.getElementsByClassName("dot1");
+          if (n > slides1.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides1.length}
+          for (i = 0; i < slides1.length; i++) {
+              slides1[i].style.display = "none";  
+          }
+          
+          for (i = 0; i < dots1.length; i++) {
+              dots1[i].className = dots1[i].className.replace(" active1", "");
+          }
+          slides1[slideIndex-1].style.display = "block";  
+          dots1[slideIndex-1].className += " active1";
+        }
+        </script>
+</body>
+</html>
